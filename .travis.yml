@@ -1,3 +1,3 @@
 language: objective-c
-xcode_project: TravisTestApp.xcodeproj
+xcode_project: TravisTestApp.xcworkspace
 xcode_scheme: TravisTestAppTests
