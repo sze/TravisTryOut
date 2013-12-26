@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface TAViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *thelabel;
+- (NSString *)firstThreeLettersOfTheLabel;
 
 @end
