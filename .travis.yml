@@ -1,4 +1,5 @@
 language: objective-c
 xcode_project: TravisTestApp.xcodeproj
 xcode_scheme: TravisTestApp
+rvm: 1.9.3
 before_install: gem install cocoapods
