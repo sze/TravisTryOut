@@ -1,0 +1,459 @@
+TTravisTestAppTests
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos/TravisTestAppTests.xctest/Info.plist /Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestAppTests/TravisTestAppTests-Info.plist
+cProcessPCH /Users/larissakalbhenn/Library/Developer/Xcode/DerivedData/TravisTestApp-gncsfexapxlrwrfijdiudgbbhfxy/Build/Intermediates/PrecompiledHeaders/TravisTestApp-Prefix-agpyoapbschcskferkxlaxkdveif/TravisTestApp-Prefix.pch.pch TravisTestApp/TravisTestApp-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /Users/larissakalbhenn/Library/Developer/Xcode/DerivedData/TravisTestApp-gncsfexapxlrwrfijdiudgbbhfxy/Build/Intermediates/PrecompiledHeaders/TravisTestApp-Prefix-gwfdbhxhkfuojihhuajaurbppecr/TravisTestApp-Prefix.pch.pch TravisTestApp/TravisTestApp-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /Users/larissakalbhenn/Library/Developer/Xcode/DerivedData/TravisTestApp-gncsfexapxlrwrfijdiudgbbhfxy/Build/Intermediates/PrecompiledHeaders/TravisTestApp-Prefix-ezzmbglfhiywvaetqupcddlyilxr/TravisTestApp-Prefix.pch.pch TravisTestApp/TravisTestApp-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/armv7/TATestTAViewController.o /Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestAppTests/TATestTAViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/armv7s/TATestTAViewController.o /Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestAppTests/TATestTAViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/arm64/TATestTAViewController.o /Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestAppTests/TATestTAViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/armv7/TravisTestAppTests normal armv7
+cLd /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/armv7s/TravisTestAppTests normal armv7s
+cLd /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/arm64/TravisTestAppTests normal arm64
+cCreateUniversalBinary /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos/TravisTestAppTests.xctest/TravisTestAppTests normal armv7\ armv7s\ arm64
+cGenerateDSYMFile /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos/TravisTestAppTests.xctest.dSYM /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos/TravisTestAppTests.xctest/TravisTestAppTests
+cCopyStringsFile /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos/TravisTestAppTests.xctest/en.lproj/InfoPlist.strings TravisTestAppTests/en.lproj/InfoPlist.strings
+cTouch /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos/TravisTestAppTests.xctest
+
+N/Applications/Xcode 2.app/Contents/Developer/Library/Frameworks/XCTest.framework/XCTest
+c00000000520AC15800000000000256F0
+t1376436568
+s153328
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk
+c00000000521BCCE10000000000000110
+t1377553633
+s272
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/SDKSettings.plist
+c00000000522ACBFD000000000000036B
+t1378536445
+s875
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000522ACC01000000000000019E
+t1378536449
+s414
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000522ACC0D0000000000A8EAD0
+t1378536461
+s11070160
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000522ACC190000000002597C70
+t1378536473
+s39418992
+
+N/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/include/module.map
+c00000000520D88540000000000000AC9
+t1376618580
+s2761
+
+N/Users/larissakalbhenn/Library/Developer/Xcode/DerivedData/TravisTestApp-gncsfexapxlrwrfijdiudgbbhfxy/Build/Intermediates/PrecompiledHeaders/TravisTestApp-Prefix-agpyoapbschcskferkxlaxkdveif/TravisTestApp-Prefix.pch.pch
+t1388100384
+s81492
+
+N/Users/larissakalbhenn/Library/Developer/Xcode/DerivedData/TravisTestApp-gncsfexapxlrwrfijdiudgbbhfxy/Build/Intermediates/PrecompiledHeaders/TravisTestApp-Prefix-ezzmbglfhiywvaetqupcddlyilxr/TravisTestApp-Prefix.pch.pch
+t1388100384
+s96452
+
+N/Users/larissakalbhenn/Library/Developer/Xcode/DerivedData/TravisTestApp-gncsfexapxlrwrfijdiudgbbhfxy/Build/Intermediates/PrecompiledHeaders/TravisTestApp-Prefix-gwfdbhxhkfuojihhuajaurbppecr/TravisTestApp-Prefix.pch.pch
+t1388100384
+s81508
+
+N/Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestApp/TravisTestApp-Prefix.pch
+c0000000052BC55B10000000000000158
+t1388074417
+s344
+
+N/Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestAppTests/TATestTAViewController.m
+c0000000052BC90A700000000000002B8
+t1388089511
+s696
+
+N/Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestAppTests/TravisTestAppTests-Info.plist
+c0000000052BC55B100000000000002B9
+t1388074417
+s697
+
+N/Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestAppTests/en.lproj/InfoPlist.strings
+c0000000052BC55B1000000000000002D
+t1388074417
+s45
+
+N/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos/TravisTestAppTests.xctest
+t1388100384
+s170
+
+N/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos/TravisTestAppTests.xctest.dSYM
+t2
+s0
+
+N/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos/TravisTestAppTests.xctest/Info.plist
+t1388100383
+s748
+
+N/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos/TravisTestAppTests.xctest/TravisTestAppTests
+t1388100384
+s84980
+
+N/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos/TravisTestAppTests.xctest/en.lproj/InfoPlist.strings
+t1388100384
+s42
+
+N/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/arm64/TATestTAViewController.o
+t1388100384
+s13048
+
+N/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/arm64/TravisTestAppTests
+t1388100384
+s35828
+
+N/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/arm64/TravisTestAppTests.LinkFileList
+c0000000052BCBB1F00000000000000A3
+t1388100383
+s163
+
+N/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/armv7/TATestTAViewController.o
+t1388100384
+s11364
+
+N/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/armv7/TravisTestAppTests
+t1388100384
+s11272
+
+N/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/armv7/TravisTestAppTests.LinkFileList
+c0000000052BCBB1F00000000000000A3
+t1388100383
+s163
+
+N/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/armv7s/TATestTAViewController.o
+t1388100384
+s11364
+
+N/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/armv7s/TravisTestAppTests
+t1388100384
+s11272
+
+N/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/armv7s/TravisTestAppTests.LinkFileList
+c0000000052BCBB1F00000000000000A4
+t1388100383
+s164
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies626a339ff26cb841^f357349ff26cb841^---0#1#1#--18"Check dependencies36"A9388A48-BAE0-40D2-9221-1B09F5369DCE-
+
+CCompileC build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/arm64/TATestTAViewController.o /Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestAppTests/TATestTAViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s409793184.062247
+e409793184.172876
+r1
+xCompileC
+xbuild/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/arm64/TATestTAViewController.o
+x/Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestAppTests/TATestTAViewController.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestAppTests/TATestTAViewController.m
+d/Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestApp/TAViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestAppTests/TATestTAViewController.m235"CompileC build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/arm64/TATestTAViewController.o TravisTestAppTests/TATestTAViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilera11110a0f26cb841^42422ca0f26cb841^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestAppTests/TATestTAViewController.m0000000000000000^4167"CompileC build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/arm64/TATestTAViewController.o TravisTestAppTests/TATestTAViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/larissakalbhenn/TailoredApps/TravisTryOut    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode\ 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/zq/4y7z5lh57l91c5zqstvmzdc40000gn/T/xctool_temp_dqw9Tg/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode\ 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/TravisTestAppTests-generated-files.hmap -I/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/TravisTestAppTests-own-target-headers.hmap -I/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/TravisTestAppTests-all-target-headers.hmap -iquote /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/TravisTestAppTests-project-headers.hmap -I/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos/include -I/Applications/Xcode\ 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/DerivedSources/arm64 -I/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/DerivedSources -F/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos -F/Applications/Xcode\ 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Developer/Library/Frameworks -F/Applications/Xcode\ 2.app/Contents/Developer/Library/Frameworks -F/Applications/Xcode\ 2.app/Contents/Developer/Library/Frameworks -include /Users/larissakalbhenn/Library/Developer/Xcode/DerivedData/TravisTestApp-gncsfexapxlrwrfijdiudgbbhfxy/Build/Intermediates/PrecompiledHeaders/TravisTestApp-Prefix-ezzmbglfhiywvaetqupcddlyilxr/TravisTestApp-Prefix.pch -MMD -MT dependencies -MF /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/arm64/TATestTAViewController.d --serialize-diagnostics /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/arm64/TATestTAViewController.dia -c /Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestAppTests/TATestTAViewController.m -o /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/arm64/TATestTAViewController.o36"C2803A0B-5324-4587-9172-AF317B0E4C49-
+bCDB19E74-93A7-420D-A133-310968904042
+
+CCompileC build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/armv7/TATestTAViewController.o /Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestAppTests/TATestTAViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s409793184.061646
+e409793184.172154
+r1
+xCompileC
+xbuild/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/armv7/TATestTAViewController.o
+x/Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestAppTests/TATestTAViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestAppTests/TATestTAViewController.m
+d/Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestApp/TAViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestAppTests/TATestTAViewController.m235"CompileC build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/armv7/TATestTAViewController.o TravisTestAppTests/TATestTAViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilere3df0fa0f26cb841^be122ca0f26cb841^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestAppTests/TATestTAViewController.m0000000000000000^4167"CompileC build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/armv7/TATestTAViewController.o TravisTestAppTests/TATestTAViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/larissakalbhenn/TailoredApps/TravisTryOut    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode\ 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/zq/4y7z5lh57l91c5zqstvmzdc40000gn/T/xctool_temp_dqw9Tg/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode\ 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/TravisTestAppTests-generated-files.hmap -I/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/TravisTestAppTests-own-target-headers.hmap -I/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/TravisTestAppTests-all-target-headers.hmap -iquote /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/TravisTestAppTests-project-headers.hmap -I/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos/include -I/Applications/Xcode\ 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/DerivedSources/armv7 -I/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/DerivedSources -F/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos -F/Applications/Xcode\ 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Developer/Library/Frameworks -F/Applications/Xcode\ 2.app/Contents/Developer/Library/Frameworks -F/Applications/Xcode\ 2.app/Contents/Developer/Library/Frameworks -include /Users/larissakalbhenn/Library/Developer/Xcode/DerivedData/TravisTestApp-gncsfexapxlrwrfijdiudgbbhfxy/Build/Intermediates/PrecompiledHeaders/TravisTestApp-Prefix-agpyoapbschcskferkxlaxkdveif/TravisTestApp-Prefix.pch -MMD -MT dependencies -MF /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/armv7/TATestTAViewController.d --serialize-diagnostics /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/armv7/TATestTAViewController.dia -c /Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestAppTests/TATestTAViewController.m -o /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/armv7/TATestTAViewController.o36"E6617562-86DD-40DA-AF6C-52C52E65ADEB-
+bCDB19E74-93A7-420D-A133-310968904042
+
+CCompileC build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/armv7s/TATestTAViewController.o /Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestAppTests/TATestTAViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s409793184.061928
+e409793184.164419
+r1
+xCompileC
+xbuild/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/armv7s/TATestTAViewController.o
+x/Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestAppTests/TATestTAViewController.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestAppTests/TATestTAViewController.m
+d/Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestApp/TAViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestAppTests/TATestTAViewController.m237"CompileC build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/armv7s/TATestTAViewController.o TravisTestAppTests/TATestTAViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler95f10fa0f26cb841^d1232aa0f26cb841^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestAppTests/TATestTAViewController.m0000000000000000^4174"CompileC build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/armv7s/TATestTAViewController.o TravisTestAppTests/TATestTAViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/larissakalbhenn/TailoredApps/TravisTryOut    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode\ 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/zq/4y7z5lh57l91c5zqstvmzdc40000gn/T/xctool_temp_dqw9Tg/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode\ 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/TravisTestAppTests-generated-files.hmap -I/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/TravisTestAppTests-own-target-headers.hmap -I/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/TravisTestAppTests-all-target-headers.hmap -iquote /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/TravisTestAppTests-project-headers.hmap -I/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos/include -I/Applications/Xcode\ 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/DerivedSources/armv7s -I/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/DerivedSources -F/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos -F/Applications/Xcode\ 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Developer/Library/Frameworks -F/Applications/Xcode\ 2.app/Contents/Developer/Library/Frameworks -F/Applications/Xcode\ 2.app/Contents/Developer/Library/Frameworks -include /Users/larissakalbhenn/Library/Developer/Xcode/DerivedData/TravisTestApp-gncsfexapxlrwrfijdiudgbbhfxy/Build/Intermediates/PrecompiledHeaders/TravisTestApp-Prefix-gwfdbhxhkfuojihhuajaurbppecr/TravisTestApp-Prefix.pch -MMD -MT dependencies -MF /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/armv7s/TATestTAViewController.d --serialize-diagnostics /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/armv7s/TATestTAViewController.dia -c /Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestAppTests/TATestTAViewController.m -o /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/armv7s/TATestTAViewController.o36"FA145BFC-D9F3-4844-BAE7-79731B423107-
+bCDB19E74-93A7-420D-A133-310968904042
+
+CCopyStringsFile /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos/TravisTestAppTests.xctest/en.lproj/InfoPlist.strings TravisTestAppTests/en.lproj/InfoPlist.strings
+s409793184.230383
+e409793184.231527
+r1
+xCopyStringsFile
+x/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos/TravisTestAppTests.xctest/en.lproj/InfoPlist.strings
+xTravisTestAppTests/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy TravisTestAppTests/en.lproj/InfoPlist.strings137"CopyStringsFile build/Release-iphoneos/TravisTestAppTests.xctest/en.lproj/InfoPlist.strings TravisTestAppTests/en.lproj/InfoPlist.strings6b0b3ba0f26cb841^e1453ba0f26cb841^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestAppTests/en.lproj/InfoPlist.strings0000000000000000^632"CopyStringsFile build/Release-iphoneos/TravisTestAppTests.xctest/en.lproj/InfoPlist.strings TravisTestAppTests/en.lproj/InfoPlist.strings    cd /Users/larissakalbhenn/TailoredApps/TravisTryOut    setenv PATH "/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos/TravisTestAppTests.xctest/en.lproj -- TravisTestAppTests/en.lproj/InfoPlist.strings36"89ADAD2F-1A14-4A95-AA42-5C91D7D8FE85-
+bCDB19E74-93A7-420D-A133-310968904042
+
+CCreateUniversalBinary /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos/TravisTestAppTests.xctest/TravisTestAppTests normal armv7\ armv7s\ arm64
+s409793184.210603
+e409793184.216759
+r1
+xCreateUniversalBinary
+x/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos/TravisTestAppTests.xctest/TravisTestAppTests
+xnormal
+xarmv7 armv7s arm64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection140"Create universal binary /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos/TravisTestAppTests.xctest/TravisTestAppTests117"CreateUniversalBinary build/Release-iphoneos/TravisTestAppTests.xctest/TravisTestAppTests normal armv7\ armv7s\ arm64b5fb35a0f26cb841^c87d37a0f26cb841^---0#0#1#-19%DVTDocumentLocation2@123"file:///Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos/TravisTestAppTests.xctest/TravisTestAppTests003450b9dfffdf42^980"CreateUniversalBinary build/Release-iphoneos/TravisTestAppTests.xctest/TravisTestAppTests normal armv7\ armv7s\ arm64    cd /Users/larissakalbhenn/TailoredApps/TravisTryOut    setenv PATH "/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    lipo -create /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/armv7/TravisTestAppTests /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/armv7s/TravisTestAppTests /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/arm64/TravisTestAppTests -output /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos/TravisTestAppTests.xctest/TravisTestAppTests36"90EB4F02-40CD-4E2D-8F56-883FE1CDF01C-
+bCDB19E74-93A7-420D-A133-310968904042
+
+CGenerateDSYMFile /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos/TravisTestAppTests.xctest.dSYM /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos/TravisTestAppTests.xctest/TravisTestAppTests
+s409793184.217175
+e409793184.229955
+r1
+xGenerateDSYMFile
+x/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos/TravisTestAppTests.xctest.dSYM
+x/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos/TravisTestAppTests.xctest/TravisTestAppTests
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Generate /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos/TravisTestAppTests.xctest.dSYM138"GenerateDSYMFile build/Release-iphoneos/TravisTestAppTests.xctest.dSYM build/Release-iphoneos/TravisTestAppTests.xctest/TravisTestAppTestsf0a637a0f26cb841^2fdf3aa0f26cb841^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos/TravisTestAppTests.xctest.dSYM003450b9dfffdf42^713"GenerateDSYMFile build/Release-iphoneos/TravisTestAppTests.xctest.dSYM build/Release-iphoneos/TravisTestAppTests.xctest/TravisTestAppTests    cd /Users/larissakalbhenn/TailoredApps/TravisTryOut    setenv PATH "/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode\ 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos/TravisTestAppTests.xctest/TravisTestAppTests -o /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos/TravisTestAppTests.xctest.dSYM36"FAA92016-B12C-4E28-8F59-8D0600AA95FF-
+bCDB19E74-93A7-420D-A133-310968904042
+
+CLd /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/arm64/TravisTestAppTests normal arm64
+s409793184.174788
+e409793184.207470
+r1
+xLd
+x/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/arm64/TravisTestAppTests
+xnormal
+xarm64
+d/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/arm64/TravisTestAppTests.LinkFileList
+d/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos/TravisTestApp.app/TravisTestApp
+d/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/arm64/TATestTAViewController.o
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Developer/Library/Frameworks/XCTest.framework/XCTest
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection161"Link /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/arm64/TravisTestAppTests123"Ld build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/arm64/TravisTestAppTests normal arm6409e22ca0f26cb841^041d35a0f26cb841^---0#0#1#--1883"Ld build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/arm64/TravisTestAppTests normal arm64    cd /Users/larissakalbhenn/TailoredApps/TravisTryOut    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode\ 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -bundle -isysroot /Applications/Xcode\ 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos -F/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos -F/Applications/Xcode\ 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Developer/Library/Frameworks -F/Applications/Xcode\ 2.app/Contents/Developer/Library/Frameworks -F/Applications/Xcode\ 2.app/Contents/Developer/Library/Frameworks -filelist /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/arm64/TravisTestAppTests.LinkFileList -dead_strip -bundle_loader /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos/TravisTestApp.app/TravisTestApp -framework XCTest -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.0 -framework XCTest -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/arm64/TravisTestAppTests_dependency_info.dat -o /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/arm64/TravisTestAppTests36"A7F80127-4F4E-4191-94BE-60E168F94B57-
+bCDB19E74-93A7-420D-A133-310968904042
+
+CLd /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/armv7/TravisTestAppTests normal armv7
+s409793184.174035
+e409793184.209688
+r1
+xLd
+x/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/armv7/TravisTestAppTests
+xnormal
+xarmv7
+d/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/armv7/TravisTestAppTests.LinkFileList
+d/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos/TravisTestApp.app/TravisTestApp
+d/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/armv7/TATestTAViewController.o
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Developer/Library/Frameworks/XCTest.framework/XCTest
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection161"Link /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/armv7/TravisTestAppTests123"Ld build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/armv7/TravisTestAppTests normal armv769ad2ca0f26cb841^07b335a0f26cb841^---0#0#1#--1883"Ld build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/armv7/TravisTestAppTests normal armv7    cd /Users/larissakalbhenn/TailoredApps/TravisTryOut    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode\ 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -bundle -isysroot /Applications/Xcode\ 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos -F/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos -F/Applications/Xcode\ 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Developer/Library/Frameworks -F/Applications/Xcode\ 2.app/Contents/Developer/Library/Frameworks -F/Applications/Xcode\ 2.app/Contents/Developer/Library/Frameworks -filelist /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/armv7/TravisTestAppTests.LinkFileList -dead_strip -bundle_loader /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos/TravisTestApp.app/TravisTestApp -framework XCTest -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.0 -framework XCTest -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/armv7/TravisTestAppTests_dependency_info.dat -o /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/armv7/TravisTestAppTests36"3C66E874-E533-4B0F-9EA9-376BF4A59C4C-
+bCDB19E74-93A7-420D-A133-310968904042
+
+CLd /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/armv7s/TravisTestAppTests normal armv7s
+s409793184.174377
+e409793184.209683
+r1
+xLd
+x/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/armv7s/TravisTestAppTests
+xnormal
+xarmv7s
+d/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/armv7s/TravisTestAppTests.LinkFileList
+d/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos/TravisTestApp.app/TravisTestApp
+d/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/armv7s/TATestTAViewController.o
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Developer/Library/Frameworks/XCTest.framework/XCTest
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection162"Link /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/armv7s/TravisTestAppTests125"Ld build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/armv7s/TravisTestAppTests normal armv7s51be2ca0f26cb841^c5ae35a0f26cb841^---0#0#1#--1889"Ld build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/armv7s/TravisTestAppTests normal armv7s    cd /Users/larissakalbhenn/TailoredApps/TravisTryOut    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode\ 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -bundle -isysroot /Applications/Xcode\ 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos -F/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos -F/Applications/Xcode\ 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Developer/Library/Frameworks -F/Applications/Xcode\ 2.app/Contents/Developer/Library/Frameworks -F/Applications/Xcode\ 2.app/Contents/Developer/Library/Frameworks -filelist /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/armv7s/TravisTestAppTests.LinkFileList -dead_strip -bundle_loader /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos/TravisTestApp.app/TravisTestApp -framework XCTest -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.0 -framework XCTest -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/armv7s/TravisTestAppTests_dependency_info.dat -o /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/Objects-normal/armv7s/TravisTestAppTests36"210DED13-2939-4168-9B63-6D65CB2E2631-
+bCDB19E74-93A7-420D-A133-310968904042
+
+CProcessInfoPlistFile /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos/TravisTestAppTests.xctest/Info.plist /Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestAppTests/TravisTestAppTests-Info.plist
+s409793183.205126
+e409793183.206707
+r1
+xProcessInfoPlistFile
+x/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos/TravisTestAppTests.xctest/Info.plist
+x/Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestAppTests/TravisTestAppTests-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Process /Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestAppTests/TravisTestAppTests-Info.plist129"ProcessInfoPlistFile build/Release-iphoneos/TravisTestAppTests.xctest/Info.plist TravisTestAppTests/TravisTestAppTests-Info.plistaa9a349ff26cb841^57eb349ff26cb841^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestAppTests/TravisTestAppTests-Info.plist0000000000000000^672"ProcessInfoPlistFile build/Release-iphoneos/TravisTestAppTests.xctest/Info.plist TravisTestAppTests/TravisTestAppTests-Info.plist    cd /Users/larissakalbhenn/TailoredApps/TravisTryOut    setenv PATH "/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestAppTests/TravisTestAppTests-Info.plist -expandbuildsettings -format binary -platform iphoneos -o /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos/TravisTestAppTests.xctest/Info.plist36"B275401A-C611-428B-81CC-3773FF011DD6-
+bCDB19E74-93A7-420D-A133-310968904042
+
+CProcessPCH /Users/larissakalbhenn/Library/Developer/Xcode/DerivedData/TravisTestApp-gncsfexapxlrwrfijdiudgbbhfxy/Build/Intermediates/PrecompiledHeaders/TravisTestApp-Prefix-agpyoapbschcskferkxlaxkdveif/TravisTestApp-Prefix.pch.pch TravisTestApp/TravisTestApp-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s409793183.207675
+e409793184.029943
+r1
+xProcessPCH
+x/Users/larissakalbhenn/Library/Developer/Xcode/DerivedData/TravisTestApp-gncsfexapxlrwrfijdiudgbbhfxy/Build/Intermediates/PrecompiledHeaders/TravisTestApp-Prefix-agpyoapbschcskferkxlaxkdveif/TravisTestApp-Prefix.pch.pch
+xTravisTestApp/TravisTestApp-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestApp/TravisTestApp-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Precompile TravisTestApp/TravisTestApp-Prefix.pch338"ProcessPCH /Users/larissakalbhenn/Library/Developer/Xcode/DerivedData/TravisTestApp-gncsfexapxlrwrfijdiudgbbhfxy/Build/Intermediates/PrecompiledHeaders/TravisTestApp-Prefix-agpyoapbschcskferkxlaxkdveif/TravisTestApp-Prefix.pch.pch TravisTestApp/TravisTestApp-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler3c4e359ff26cb841^19ad07a0f26cb841^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestApp/TravisTestApp-Prefix.pch0000000000000000^4214"ProcessPCH /Users/larissakalbhenn/Library/Developer/Xcode/DerivedData/TravisTestApp-gncsfexapxlrwrfijdiudgbbhfxy/Build/Intermediates/PrecompiledHeaders/TravisTestApp-Prefix-agpyoapbschcskferkxlaxkdveif/TravisTestApp-Prefix.pch.pch TravisTestApp/TravisTestApp-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/larissakalbhenn/TailoredApps/TravisTryOut    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode\ 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/zq/4y7z5lh57l91c5zqstvmzdc40000gn/T/xctool_temp_dqw9Tg/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode\ 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/TravisTestAppTests-generated-files.hmap -I/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/TravisTestAppTests-own-target-headers.hmap -I/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/TravisTestAppTests-all-target-headers.hmap -iquote /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/TravisTestAppTests-project-headers.hmap -I/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos/include -I/Applications/Xcode\ 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/DerivedSources/armv7 -I/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/DerivedSources -F/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos -F/Applications/Xcode\ 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Developer/Library/Frameworks -F/Applications/Xcode\ 2.app/Contents/Developer/Library/Frameworks -F/Applications/Xcode\ 2.app/Contents/Developer/Library/Frameworks --serialize-diagnostics /Users/larissakalbhenn/Library/Developer/Xcode/DerivedData/TravisTestApp-gncsfexapxlrwrfijdiudgbbhfxy/Build/Intermediates/PrecompiledHeaders/TravisTestApp-Prefix-agpyoapbschcskferkxlaxkdveif/TravisTestApp-Prefix.pch.dia -MMD -MT dependencies -MF /Users/larissakalbhenn/Library/Developer/Xcode/DerivedData/TravisTestApp-gncsfexapxlrwrfijdiudgbbhfxy/Build/Intermediates/PrecompiledHeaders/TravisTestApp-Prefix-agpyoapbschcskferkxlaxkdveif/TravisTestApp-Prefix.pch.d -c /Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestApp/TravisTestApp-Prefix.pch -o /Users/larissakalbhenn/Library/Developer/Xcode/DerivedData/TravisTestApp-gncsfexapxlrwrfijdiudgbbhfxy/Build/Intermediates/PrecompiledHeaders/TravisTestApp-Prefix-agpyoapbschcskferkxlaxkdveif/TravisTestApp-Prefix.pch.pch36"7E681EE5-DD78-4719-960A-A9895FBEFB8C-
+bCDB19E74-93A7-420D-A133-310968904042
+
+CProcessPCH /Users/larissakalbhenn/Library/Developer/Xcode/DerivedData/TravisTestApp-gncsfexapxlrwrfijdiudgbbhfxy/Build/Intermediates/PrecompiledHeaders/TravisTestApp-Prefix-ezzmbglfhiywvaetqupcddlyilxr/TravisTestApp-Prefix.pch.pch TravisTestApp/TravisTestApp-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s409793183.209291
+e409793184.060634
+r1
+xProcessPCH
+x/Users/larissakalbhenn/Library/Developer/Xcode/DerivedData/TravisTestApp-gncsfexapxlrwrfijdiudgbbhfxy/Build/Intermediates/PrecompiledHeaders/TravisTestApp-Prefix-ezzmbglfhiywvaetqupcddlyilxr/TravisTestApp-Prefix.pch.pch
+xTravisTestApp/TravisTestApp-Prefix.pch
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestApp/TravisTestApp-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Precompile TravisTestApp/TravisTestApp-Prefix.pch338"ProcessPCH /Users/larissakalbhenn/Library/Developer/Xcode/DerivedData/TravisTestApp-gncsfexapxlrwrfijdiudgbbhfxy/Build/Intermediates/PrecompiledHeaders/TravisTestApp-Prefix-ezzmbglfhiywvaetqupcddlyilxr/TravisTestApp-Prefix.pch.pch TravisTestApp/TravisTestApp-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerbbee359ff26cb841^3b8a0fa0f26cb841^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestApp/TravisTestApp-Prefix.pch0000000000000000^4214"ProcessPCH /Users/larissakalbhenn/Library/Developer/Xcode/DerivedData/TravisTestApp-gncsfexapxlrwrfijdiudgbbhfxy/Build/Intermediates/PrecompiledHeaders/TravisTestApp-Prefix-ezzmbglfhiywvaetqupcddlyilxr/TravisTestApp-Prefix.pch.pch TravisTestApp/TravisTestApp-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/larissakalbhenn/TailoredApps/TravisTryOut    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode\ 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/zq/4y7z5lh57l91c5zqstvmzdc40000gn/T/xctool_temp_dqw9Tg/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode\ 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/TravisTestAppTests-generated-files.hmap -I/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/TravisTestAppTests-own-target-headers.hmap -I/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/TravisTestAppTests-all-target-headers.hmap -iquote /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/TravisTestAppTests-project-headers.hmap -I/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos/include -I/Applications/Xcode\ 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/DerivedSources/arm64 -I/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/DerivedSources -F/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos -F/Applications/Xcode\ 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Developer/Library/Frameworks -F/Applications/Xcode\ 2.app/Contents/Developer/Library/Frameworks -F/Applications/Xcode\ 2.app/Contents/Developer/Library/Frameworks --serialize-diagnostics /Users/larissakalbhenn/Library/Developer/Xcode/DerivedData/TravisTestApp-gncsfexapxlrwrfijdiudgbbhfxy/Build/Intermediates/PrecompiledHeaders/TravisTestApp-Prefix-ezzmbglfhiywvaetqupcddlyilxr/TravisTestApp-Prefix.pch.dia -MMD -MT dependencies -MF /Users/larissakalbhenn/Library/Developer/Xcode/DerivedData/TravisTestApp-gncsfexapxlrwrfijdiudgbbhfxy/Build/Intermediates/PrecompiledHeaders/TravisTestApp-Prefix-ezzmbglfhiywvaetqupcddlyilxr/TravisTestApp-Prefix.pch.d -c /Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestApp/TravisTestApp-Prefix.pch -o /Users/larissakalbhenn/Library/Developer/Xcode/DerivedData/TravisTestApp-gncsfexapxlrwrfijdiudgbbhfxy/Build/Intermediates/PrecompiledHeaders/TravisTestApp-Prefix-ezzmbglfhiywvaetqupcddlyilxr/TravisTestApp-Prefix.pch.pch36"10461918-128B-4892-BC15-CE18D04C8545-
+bCDB19E74-93A7-420D-A133-310968904042
+
+CProcessPCH /Users/larissakalbhenn/Library/Developer/Xcode/DerivedData/TravisTestApp-gncsfexapxlrwrfijdiudgbbhfxy/Build/Intermediates/PrecompiledHeaders/TravisTestApp-Prefix-gwfdbhxhkfuojihhuajaurbppecr/TravisTestApp-Prefix.pch.pch TravisTestApp/TravisTestApp-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s409793183.208841
+e409793184.017196
+r1
+xProcessPCH
+x/Users/larissakalbhenn/Library/Developer/Xcode/DerivedData/TravisTestApp-gncsfexapxlrwrfijdiudgbbhfxy/Build/Intermediates/PrecompiledHeaders/TravisTestApp-Prefix-gwfdbhxhkfuojihhuajaurbppecr/TravisTestApp-Prefix.pch.pch
+xTravisTestApp/TravisTestApp-Prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestApp/TravisTestApp-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Precompile TravisTestApp/TravisTestApp-Prefix.pch339"ProcessPCH /Users/larissakalbhenn/Library/Developer/Xcode/DerivedData/TravisTestApp-gncsfexapxlrwrfijdiudgbbhfxy/Build/Intermediates/PrecompiledHeaders/TravisTestApp-Prefix-gwfdbhxhkfuojihhuajaurbppecr/TravisTestApp-Prefix.pch.pch TravisTestApp/TravisTestApp-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler9013369ff26cb841^cf6704a0f26cb841^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestApp/TravisTestApp-Prefix.pch0000000000000000^4217"ProcessPCH /Users/larissakalbhenn/Library/Developer/Xcode/DerivedData/TravisTestApp-gncsfexapxlrwrfijdiudgbbhfxy/Build/Intermediates/PrecompiledHeaders/TravisTestApp-Prefix-gwfdbhxhkfuojihhuajaurbppecr/TravisTestApp-Prefix.pch.pch TravisTestApp/TravisTestApp-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/larissakalbhenn/TailoredApps/TravisTryOut    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode\ 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/zq/4y7z5lh57l91c5zqstvmzdc40000gn/T/xctool_temp_dqw9Tg/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode\ 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/TravisTestAppTests-generated-files.hmap -I/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/TravisTestAppTests-own-target-headers.hmap -I/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/TravisTestAppTests-all-target-headers.hmap -iquote /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/TravisTestAppTests-project-headers.hmap -I/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos/include -I/Applications/Xcode\ 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/DerivedSources/armv7s -I/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/TravisTestApp.build/Release-iphoneos/TravisTestAppTests.build/DerivedSources -F/Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos -F/Applications/Xcode\ 2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Developer/Library/Frameworks -F/Applications/Xcode\ 2.app/Contents/Developer/Library/Frameworks -F/Applications/Xcode\ 2.app/Contents/Developer/Library/Frameworks --serialize-diagnostics /Users/larissakalbhenn/Library/Developer/Xcode/DerivedData/TravisTestApp-gncsfexapxlrwrfijdiudgbbhfxy/Build/Intermediates/PrecompiledHeaders/TravisTestApp-Prefix-gwfdbhxhkfuojihhuajaurbppecr/TravisTestApp-Prefix.pch.dia -MMD -MT dependencies -MF /Users/larissakalbhenn/Library/Developer/Xcode/DerivedData/TravisTestApp-gncsfexapxlrwrfijdiudgbbhfxy/Build/Intermediates/PrecompiledHeaders/TravisTestApp-Prefix-gwfdbhxhkfuojihhuajaurbppecr/TravisTestApp-Prefix.pch.d -c /Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestApp/TravisTestApp-Prefix.pch -o /Users/larissakalbhenn/Library/Developer/Xcode/DerivedData/TravisTestApp-gncsfexapxlrwrfijdiudgbbhfxy/Build/Intermediates/PrecompiledHeaders/TravisTestApp-Prefix-gwfdbhxhkfuojihhuajaurbppecr/TravisTestApp-Prefix.pch.pch36"F9FBAD0D-EFD3-4E57-B8F0-C0B84B8443C9-
+bCDB19E74-93A7-420D-A133-310968904042
+
+CTouch /Users/larissakalbhenn/TailoredApps/TravisTryOut/build/Release-iphoneos/TravisTestAppTests.xctest
+r0
+

@@ -425,6 +425,7 @@
 				GCC_PREFIX_HEADER = "TravisTestApp/TravisTestApp-Prefix.pch";
 				INFOPLIST_FILE = "TravisTestApp/TravisTestApp-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "E178AA64-29E1-4A31-8F67-93DE62710F8F";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -435,10 +436,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Tailored Media Gmbh";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TravisTestApp/TravisTestApp-Prefix.pch";
 				INFOPLIST_FILE = "TravisTestApp/TravisTestApp-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "E178AA64-29E1-4A31-8F67-93DE62710F8F";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
