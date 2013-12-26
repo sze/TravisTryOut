@@ -7,7 +7,7 @@ env:
   - 'DEVELOPER_NAME="iPhone Distribution: Tailored Media Gmbh (22DEN472RY)"'
   - PROFILE_NAME="Travis_Test_App_inHouse"
 before_script:
-  - openssl aes-256-cbc -k "justatest" -in scripts/profile/TravisExample_Ad_Hoc.mobileprovision.enc -d -a -out scripts/profile/TravisExample_Ad_Hoc.mobileprovision
+  - openssl aes-256-cbc -k "justatest" -in scripts/profile/Travis_Test_App_inHouse.mobileprovision.enc -d -a -out scripts/profile/Travis_Test_App_inHouse.mobileprovision
   - openssl aes-256-cbc -k "justatest" -in scripts/certs/dist.p12.enc -d -a -out scripts/certs/dist.p12
   - openssl aes-256-cbc -k "justatest" -in scripts/certs/dist.p12.enc -d -a -out scripts/certs/dist.p12
   - ./scripts/add-key.sh
