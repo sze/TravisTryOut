@@ -29,7 +29,7 @@
 
 - (void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    XCTAssertTrue([[@"Label" substringToIndex:3] isEqualToString:@"Lab"], @"Got the 'Lab' of the full 'Label'");
 }
 
 

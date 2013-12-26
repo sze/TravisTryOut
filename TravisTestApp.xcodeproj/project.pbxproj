@@ -21,7 +21,6 @@
 		E1D19231186C8D31002D50D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D19210186C8D31002D50D4 /* Foundation.framework */; };
 		E1D19232186C8D31002D50D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D19214186C8D31002D50D4 /* UIKit.framework */; };
 		E1D1923A186C8D31002D50D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1D19238186C8D31002D50D4 /* InfoPlist.strings */; };
-		E1D1923C186C8D31002D50D4 /* TravisTestAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D1923B186C8D31002D50D4 /* TravisTestAppTests.m */; };
 		E1D19246186CAE2A002D50D4 /* TATestTAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D19245186CAE2A002D50D4 /* TATestTAViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -55,7 +54,6 @@
 		E1D1922F186C8D31002D50D4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E1D19237186C8D31002D50D4 /* TravisTestAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TravisTestAppTests-Info.plist"; sourceTree = "<group>"; };
 		E1D19239186C8D31002D50D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E1D1923B186C8D31002D50D4 /* TravisTestAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TravisTestAppTests.m; sourceTree = "<group>"; };
 		E1D19245186CAE2A002D50D4 /* TATestTAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TATestTAViewController.m; sourceTree = "<group>"; };
 		E6CFF3E8B7D04C8597B91EE6 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -145,7 +143,6 @@
 		E1D19235186C8D31002D50D4 /* TravisTestAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				E1D1923B186C8D31002D50D4 /* TravisTestAppTests.m */,
 				E1D19236186C8D31002D50D4 /* Supporting Files */,
 				E1D19245186CAE2A002D50D4 /* TATestTAViewController.m */,
 			);
@@ -305,7 +302,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1D19246186CAE2A002D50D4 /* TATestTAViewController.m in Sources */,
-				E1D1923C186C8D31002D50D4 /* TravisTestAppTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
