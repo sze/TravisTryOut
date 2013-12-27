@@ -10,13 +10,13 @@ env:
   - APP_NAME="TravisTestApp"
   - 'DEVELOPER_NAME="iPhone Distribution: Tailored Media Gmbh (22DEN472RY)"'
   - PROFILE_NAME="Travis_Test_App_inHouse"
-  - secure: rnGADvQCspLoFn/HkgZiM3c1P4lk1xa6BU0bvnoFLNW31lxdIEtaZsudTBh2j71sggkwh9v9o1Om2RMSZKQDjQRVOESL+pdurRPsJk6F//EJQ+Tox/umtDl3UB4aAi3TjuThkapKCJLc5xkDA/x50Py9SUoGy4+hWXZheHitPtE=
-  - secure: LgO2H6L0Pgm4MucodOH1ZY8Tse8EEGxPewp7oOTxX6riRPgvvSEJDcESZXhWg6V8v30BdlMA2IlYChoGs64Z4CgliaL5yQw1ljWwZd5Dkvp6NE5IadoV4exnWoX4aTjrAf78R2DeHv92quIg6qAO0chcdWCS2ShVRdyIsP6vPhQ=
+  - secure: PS1XonfvpBgaSoClKhZ0LjV+aDOIzPP6MdYXmYWAFNT1YEkA+l17lHAgIsZzmV3iVAylIjzz5yshWg5SR+4XvfWXfbwhE1YhVdWwVUsWHNjjFR9q6e7dc9i3R+Kfc1Kj8XJIWrMS0u8VACWtICIOquo0HlowldGb47lq9Qddbkw=
+  - secure: DTgE2jYf6U7i3dFxXl6W1X1PqZ7XUiXx0jJeCCvC8Ab303UqNGU8e5PXIpBUHmivoeu/uPgGkC9MHyoNKqyRFKr1e6pVsvwsNrJjoiAj25oHeKfYqmZML4q52DDS8Z1sulwPsbtDDno2khtO6HsP3AidvYYKrctL7u0nE2pZVGE=
 before_script:
 - openssl aes-256-cbc -k "$ENCPWD" -in scripts/profile/Travis_Test_App_inHouse.mobileprovision.enc
   -d -a -out scripts/profile/Travis_Test_App_inHouse.mobileprovision
 - openssl aes-256-cbc -k "$ENCPWD" -in scripts/certs/dist.cer.enc -d -a -out scripts/certs/dist.cer
-- openssl aes-256-cbc -k "$ENCPWD" -in scripts/certs/dist.cer.p12 -d -a -out scripts/certs/dist.p12
+- openssl aes-256-cbc -k "$ENCPWD" -in scripts/certs/dist.p12.enc -d -a -out scripts/certs/dist.p12
 - ./scripts/add-key.sh
 after_success:
 - ./scripts/sign.sh
