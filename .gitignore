@@ -10,6 +10,10 @@
 *.perspectivev3
 !default.perspectivev3
 xcuserdata
+<<<<<<< HEAD
+=======
+profile
+>>>>>>> 98b0f9f2a1f0aac4229a5deab53d88e99ac05d64
 *.moved-aside
 DerivedData
 .idea/
