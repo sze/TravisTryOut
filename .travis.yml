@@ -13,10 +13,10 @@ env:
   - secure: rnGADvQCspLoFn/HkgZiM3c1P4lk1xa6BU0bvnoFLNW31lxdIEtaZsudTBh2j71sggkwh9v9o1Om2RMSZKQDjQRVOESL+pdurRPsJk6F//EJQ+Tox/umtDl3UB4aAi3TjuThkapKCJLc5xkDA/x50Py9SUoGy4+hWXZheHitPtE=
   - secure: LgO2H6L0Pgm4MucodOH1ZY8Tse8EEGxPewp7oOTxX6riRPgvvSEJDcESZXhWg6V8v30BdlMA2IlYChoGs64Z4CgliaL5yQw1ljWwZd5Dkvp6NE5IadoV4exnWoX4aTjrAf78R2DeHv92quIg6qAO0chcdWCS2ShVRdyIsP6vPhQ=
 before_script:
-- openssl aes-256-cbc -k $ENCPWD -in scripts/profile/Travis_Test_App_inHouse.mobileprovision.enc
+- openssl aes-256-cbc -k "$ENCPWD" -in scripts/profile/Travis_Test_App_inHouse.mobileprovision.enc
   -d -a -out scripts/profile/Travis_Test_App_inHouse.mobileprovision
-- openssl aes-256-cbc -k $ENCPWD -in scripts/certs/dist.cer.enc -d -a -out scripts/certs/dist.cer
-- openssl aes-256-cbc -k $ENCPWD -in scripts/certs/dist.cer.p12 -d -a -out scripts/certs/dist.p12
+- openssl aes-256-cbc -k "$ENCPWD" -in scripts/certs/dist.cer.enc -d -a -out scripts/certs/dist.cer
+- openssl aes-256-cbc -k "$ENCPWD" -in scripts/certs/dist.cer.p12 -d -a -out scripts/certs/dist.p12
 - ./scripts/add-key.sh
 after_success:
 - ./scripts/sign.sh
