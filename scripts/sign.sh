@@ -17,7 +17,7 @@ xcrun -log -sdk iphoneos PackageApplication "$OUTPUTDIR/$APPNAME.app" -o "$OUTPU
 
 curl http://testflightapp.com/api/builds.json \
   -F file="@$OUTPUTDIR/$APPNAME.ipa" \
-  -F dsym="@$OUTPUTDIR/$APPNAME.app.dSYM.zip" \
+  -F dsym="@$OUTPUTDIR/$APPNAME.app.dSYM" \
   -F api_token="$TESTFLIGHT_API_TOKEN" \
   -F team_token="$TESTFLIGHT_TEAM_TOKEN" \
   -F distribution_lists='Internal' \
