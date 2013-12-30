@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		DF47E9021000432AA8F93C13 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 184ABDF0B89148CFB3F8592C /* libPods.a */; };
+		E1028EA71871FE1B00E0C580 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E1028EA11871FE1B00E0C580 /* README.md */; };
+		E1028EA81871FE1B00E0C580 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1028EA51871FE1B00E0C580 /* libTestFlight.a */; };
+		E1028EA91871FE1B00E0C580 /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = E1028EA61871FE1B00E0C580 /* release_notes.md */; };
 		E1D19211186C8D31002D50D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D19210186C8D31002D50D4 /* Foundation.framework */; };
 		E1D19213186C8D31002D50D4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D19212186C8D31002D50D4 /* CoreGraphics.framework */; };
 		E1D19215186C8D31002D50D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D19214186C8D31002D50D4 /* UIKit.framework */; };
@@ -36,6 +39,12 @@
 
 /* Begin PBXFileReference section */
 		184ABDF0B89148CFB3F8592C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1028EA11871FE1B00E0C580 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		E1028EA21871FE1B00E0C580 /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
+		E1028EA31871FE1B00E0C580 /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
+		E1028EA41871FE1B00E0C580 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
+		E1028EA51871FE1B00E0C580 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
+		E1028EA61871FE1B00E0C580 /* release_notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.md; sourceTree = "<group>"; };
 		E1D1920D186C8D31002D50D4 /* TravisTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravisTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1D19210186C8D31002D50D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E1D19212186C8D31002D50D4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1028EA81871FE1B00E0C580 /* libTestFlight.a in Frameworks */,
 				E1D19213186C8D31002D50D4 /* CoreGraphics.framework in Frameworks */,
 				E1D19215186C8D31002D50D4 /* UIKit.framework in Frameworks */,
 				E1D19211186C8D31002D50D4 /* Foundation.framework in Frameworks */,
@@ -83,6 +93,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E1028EA01871FE1B00E0C580 /* TestFlightSDK2.1.3 */ = {
+			isa = PBXGroup;
+			children = (
+				E1028EA11871FE1B00E0C580 /* README.md */,
+				E1028EA21871FE1B00E0C580 /* TestFlight+AsyncLogging.h */,
+				E1028EA31871FE1B00E0C580 /* TestFlight+ManualSessions.h */,
+				E1028EA41871FE1B00E0C580 /* TestFlight.h */,
+				E1028EA51871FE1B00E0C580 /* libTestFlight.a */,
+				E1028EA61871FE1B00E0C580 /* release_notes.md */,
+			);
+			path = TestFlightSDK2.1.3;
+			sourceTree = "<group>";
+		};
 		E1D19204186C8D31002D50D4 = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +141,7 @@
 		E1D19216186C8D31002D50D4 /* TravisTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				E1028EA01871FE1B00E0C580 /* TestFlightSDK2.1.3 */,
 				E1D1921F186C8D31002D50D4 /* TAAppDelegate.h */,
 				E1D19220186C8D31002D50D4 /* TAAppDelegate.m */,
 				E1D19222186C8D31002D50D4 /* Main.storyboard */,
@@ -239,7 +263,9 @@
 			files = (
 				E1D19229186C8D31002D50D4 /* Images.xcassets in Resources */,
 				E1D1921B186C8D31002D50D4 /* InfoPlist.strings in Resources */,
+				E1028EA71871FE1B00E0C580 /* README.md in Resources */,
 				E1D19224186C8D31002D50D4 /* Main.storyboard in Resources */,
+				E1028EA91871FE1B00E0C580 /* release_notes.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +450,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TravisTestApp/TravisTestApp-Prefix.pch";
 				INFOPLIST_FILE = "TravisTestApp/TravisTestApp-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestApp/TestFlightSDK2.1.3,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "E178AA64-29E1-4A31-8F67-93DE62710F8F";
 				WRAPPER_EXTENSION = app;
@@ -440,6 +470,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TravisTestApp/TravisTestApp-Prefix.pch";
 				INFOPLIST_FILE = "TravisTestApp/TravisTestApp-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestApp/TestFlightSDK2.1.3,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "E178AA64-29E1-4A31-8F67-93DE62710F8F";
 				WRAPPER_EXTENSION = app;
