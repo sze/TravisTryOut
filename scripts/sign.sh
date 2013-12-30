@@ -17,8 +17,7 @@ xcrun -log -sdk iphoneos PackageApplication "$OUTPUTDIR/$APPNAME.app" -o "$OUTPU
 
 curl http://testflightapp.com/api/builds.json \
   -F file="@$OUTPUTDIR/$APPNAME.ipa" \
-  -F api_token="2d3856d1ed9e39f15b7251381b000112_MzI3MTIwMjAxMi0wMi0yMSAxNjo1NjoxNy4zODI5NTQ" \
-  -F team_token="2e9e44c2d42518b9791d19595df48cfd_MzE4ODYzMjAxMy0xMi0zMCAwNTo1Nzo0NC45NDk4ODc" \
-  -F distribution_lists='Internal' \
-  -F notes="Go Go Distribution" \
+  -F api_token="$TESTFLIGHT_API_TOKEN" \
+  -F team_token="$TESTFLIGHT_TEAM_TOKEN" \
+  -F notes="$RELEASE_NOTES" \
   -F notify=True
