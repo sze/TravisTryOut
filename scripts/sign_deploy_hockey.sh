@@ -17,5 +17,5 @@ xcrun -log -sdk iphoneos PackageApplication "$OUTPUTDIR/$APPNAME.app" -o "$OUTPU
 cat "$PWD/TravisTryOut/scripts/Template.plist" | sed -e "s/\##BUNDLEID##/$BUNDLE_IDENTIFIER/" -e "s/\##TITLE##/$APPNAME/" > "$OUTPUTDIR/$APPNAME.plist"
   
   
-curl --ftp-create-dirs -T "$OUTPUTDIR/$APPNAME.plist" -u $BETAUSR:$BETAPWD "ftp://$BETAURL/$APPNAME/"
-curl --ftp-create-dirs -T "$OUTPUTDIR/$APPNAME.ipa" -u $BETAUSR:$BETAPWD "ftp://$BETAURL/$APPNAME/"
+curl --ftp-create-dirs -T "$OUTPUTDIR/$APPNAME.plist" -u $TABETAUSR:$TABETAPWD "ftp://$TABETAURL/$APPNAME/"
+curl --ftp-create-dirs -T "$OUTPUTDIR/$APPNAME.ipa" -u $TABETAUSR:$TABETAPWD "ftp://$TABETAURL/$APPNAME/"

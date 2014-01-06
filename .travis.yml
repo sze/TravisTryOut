@@ -16,6 +16,9 @@ env:
   - secure: KzqYYJ6UsQEqdHygXAmwA1PX/FE0ccEFtBmTZaG+kz/Xvt6o405p3yaATjHKkx7vyiW86M2ngRUxcbOKMde3yUd+racJnV9tBeexAi8LTIALRyln3gT98YjVKc/GaIIPZs1Cb7kBOcwaYtbsnL7HRfn7ncrOkCUSIXj7IX6oc0s=
   - secure: VNNA+uXzqb5lukPiQcnx8M+gJlE33u8bOXjXmE10FCuhweqLncuo381y5qtzVxEBlJXjImGLCgE7d6BZEJiDrLe6baNQrC4jt5TH31jEWfbxuUrAMc+fgdbTXF6vZPhMKK10yHS5qKtaFX+d07bkvRxDoX82xobUzeLh+SYMb5Y=
   - secure: OZxohiPcqQzQPa0pv3sj1v3k99GDJAqw4vzoYydlFpLucCXNwLIwQqRyDxOuWyDJBRirNc/V3kSWaHHsgS3vkDGWp9nMfLENdRWRABi+AUTNNlKAIA1SuFcZF0OJa3E3w5IbUlM3bAFlDFYj5N7zHg5FMo5XFRxK2nANqGZ7uLg=
+  - secure: Z+k5PilwYR5bqtwr9IP/fdFbvGcoHjndmnlNTDD9RdkTB6JbBwIWuZRQMJl6iCAcy2exDG5WaQcSqR1yam4JwP+JTGjlwe7iGFLRhfoNbJtHTS3ASMRMe/qQQc5oFne5ZHTgmASd8a/4KdPvyTBfkre0+03Hby9/iFrSDEDf2TU=
+  - secure: diMeKlN4TArvUkaPkq8OtO6dnvcSrHa1ixWEO5/zCabfFugjbCuw8FSzDsDs/W1sc3jLFiCPHdocorAMPCs2B4qUImxnnsWYSgJtw3B66Dwq/y17RIB6kMDWnxFEFXJlfqJ2t36JXkflD33S43C8uBt40L+LZ16BKl4btBI+JGE=
+  - secure: fLusPm6UDs9XPFyu321pNvfUmfi8gmZ9G1v6tUFykmVPndOdqJIoGduP5G5hYCSkoD7XkLZZIKqlbuGC6W4lqcmq0z2TgiMKwU+H/gZsFbZ+dpsck7vk1S8Kr9Lfo5wdIqWOcd3Ts1WLbDfGHLZRK40z3WSdReQRC/K1ysbU1t0=
 before_script:
 - openssl aes-256-cbc -k "$ENCPWD" -in scripts/profile/$PROFILE_NAME.mobileprovision.enc
   -d -a -out scripts/profile/$PROFILE_NAME.mobileprovision
