@@ -8,7 +8,7 @@ script:
 env:
   global:
   - APPNAME="TravisTestApp"
-  - DEVELOPER_NAME="iPhone Distribution: Tailored Media Gmbh"
+  - 'DEVELOPER_NAME="iPhone Distribution: Tailored Media Gmbh"'
   - PROFILE_NAME="Travis_Test_App_inHouse"
   - BUNDLE_IDENTIFIER="com.tailored-apps.TravisTestApp"
   - secure: PS1XonfvpBgaSoClKhZ0LjV+aDOIzPP6MdYXmYWAFNT1YEkA+l17lHAgIsZzmV3iVAylIjzz5yshWg5SR+4XvfWXfbwhE1YhVdWwVUsWHNjjFR9q6e7dc9i3R+Kfc1Kj8XJIWrMS0u8VACWtICIOquo0HlowldGb47lq9Qddbkw=
