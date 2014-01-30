@@ -17,7 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.thelabel.text = @"Hello Fabian";
+    self.thelabel.text = @"Hello Matthias Philipp JAAAA HOODDDAAAA";
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
