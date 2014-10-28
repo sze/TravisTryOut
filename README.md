@@ -6,5 +6,3 @@ TravisTryOut
 
 A Repo cause of trying the travis framework
 Vienna online
-NO
-yes
