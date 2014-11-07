@@ -1,0 +1,1 @@
+openssl aes-256-cbc -k $3 -in $1 -out $2 -a
