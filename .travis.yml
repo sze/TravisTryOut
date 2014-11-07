@@ -17,6 +17,7 @@ env:
   - secure: Z+k5PilwYR5bqtwr9IP/fdFbvGcoHjndmnlNTDD9RdkTB6JbBwIWuZRQMJl6iCAcy2exDG5WaQcSqR1yam4JwP+JTGjlwe7iGFLRhfoNbJtHTS3ASMRMe/qQQc5oFne5ZHTgmASd8a/4KdPvyTBfkre0+03Hby9/iFrSDEDf2TU=
   - secure: diMeKlN4TArvUkaPkq8OtO6dnvcSrHa1ixWEO5/zCabfFugjbCuw8FSzDsDs/W1sc3jLFiCPHdocorAMPCs2B4qUImxnnsWYSgJtw3B66Dwq/y17RIB6kMDWnxFEFXJlfqJ2t36JXkflD33S43C8uBt40L+LZ16BKl4btBI+JGE=
   - secure: fLusPm6UDs9XPFyu321pNvfUmfi8gmZ9G1v6tUFykmVPndOdqJIoGduP5G5hYCSkoD7XkLZZIKqlbuGC6W4lqcmq0z2TgiMKwU+H/gZsFbZ+dpsck7vk1S8Kr9Lfo5wdIqWOcd3Ts1WLbDfGHLZRK40z3WSdReQRC/K1ysbU1t0=
+  - secure: GiNsx5r/nkfeLHQfLZgHbWCjq7jmHOEosuv5vhT3gZocLWX75PIKemApPA3z5LYFicuh5IdVhevqtbBe6enObvhaupdbRzVle4a56uXmQXS2Vdw7KXfOhZIE6SJEtjnBAYI8fnbLmY5X/uIYWkVk/oZQOGuwFHN903ERPWawjSQ=
 before_script:
 - openssl aes-256-cbc -k "$ENCPWD" -in scripts/profile/$PROFILE_NAME.mobileprovision.enc
   -d -a -out scripts/profile/$PROFILE_NAME.mobileprovision
