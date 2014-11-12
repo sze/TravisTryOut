@@ -18,11 +18,13 @@ env:
   - secure: diMeKlN4TArvUkaPkq8OtO6dnvcSrHa1ixWEO5/zCabfFugjbCuw8FSzDsDs/W1sc3jLFiCPHdocorAMPCs2B4qUImxnnsWYSgJtw3B66Dwq/y17RIB6kMDWnxFEFXJlfqJ2t36JXkflD33S43C8uBt40L+LZ16BKl4btBI+JGE=
   - secure: fLusPm6UDs9XPFyu321pNvfUmfi8gmZ9G1v6tUFykmVPndOdqJIoGduP5G5hYCSkoD7XkLZZIKqlbuGC6W4lqcmq0z2TgiMKwU+H/gZsFbZ+dpsck7vk1S8Kr9Lfo5wdIqWOcd3Ts1WLbDfGHLZRK40z3WSdReQRC/K1ysbU1t0=
   - secure: GiNsx5r/nkfeLHQfLZgHbWCjq7jmHOEosuv5vhT3gZocLWX75PIKemApPA3z5LYFicuh5IdVhevqtbBe6enObvhaupdbRzVle4a56uXmQXS2Vdw7KXfOhZIE6SJEtjnBAYI8fnbLmY5X/uIYWkVk/oZQOGuwFHN903ERPWawjSQ=
+  - secure: YJDYSIWm+5SFFd0qnnhFdwbG8+7Of9CGWkrVmkWDVBife8lNKh8P3zDBKdFj+gPKJFeYvRY26sQ2Ui37ZrQCXJ7moG0D1ngxloKTaEW/790r0OPE8J4ha0VUki1KZ3U78Dw9bOYU+P/hHgBBaQBjh1DBu/QRwFXVEcLl6Hpv3YM=
+  - secure: cJkvufPi1SKAonjsMRwhRUn2Y8bn91znOdmO7PUD/G3zRVXQD/nEtX4La3D4C8F2GETuAsxq91ifyZVoddZ4CsTV5fUMAaEPHVxjQ+QlbTlEcL5q4tK52z8SIupZi4aJ5sGW6c+LimDJV4b6lBdasDELjVWy0QElqFmEZI4iZtM=
 before_script:
-- openssl aes-256-cbc -k "$ENCPWD" -in scripts/profile/$PROFILE_NAME.mobileprovision.enc
+- openssl aes-256-cbc -k "$CERTPWD" -in scripts/profile/$PROFILE_NAME.mobileprovision.enc
   -d -a -out scripts/profile/$PROFILE_NAME.mobileprovision
-- openssl aes-256-cbc -k "$ENCPWD" -in scripts/certs/dist.cer.enc -d -a -out scripts/certs/dist.cer
-- openssl aes-256-cbc -k "$ENCPWD" -in scripts/certs/dist.p12.enc -d -a -out scripts/certs/dist.p12
+- openssl aes-256-cbc -k "$CERTPWD" -in scripts/certs/dist.cer.enc -d -a -out scripts/certs/dist.cer
+- openssl aes-256-cbc -k "$CERTPWD" -in scripts/certs/dist.p12.enc -d -a -out scripts/certs/dist.p12
 - ./scripts/add-key.sh
 after_success:
 - ./scripts/sign_deploy_hockey.sh
