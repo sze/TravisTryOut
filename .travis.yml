@@ -1,7 +1,7 @@
 language: objective-c
 before_install: gem install cocoapods
 script:
-- xctool -workspace TravisTestApp.xcworkspace -scheme TravisTestApp -sdk iphoneos
+- xcodebuild -workspace TravisTestApp.xcworkspace -scheme TravisTestApp -sdk iphoneos
   -configuration Release OBJROOT=$PWD/build SYMROOT=$PWD/build ONLY_ACTIVE_ARCH=NO
 env:
   global:
