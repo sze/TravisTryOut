@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/larissakalbhenn/TailoredApps/TravisTryOut/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.m \
-  /Users/larissakalbhenn/TailoredApps/TravisTryOut/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h
+  /Users/hannessatz/TailoredApps/Apps/TravisTryOut/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.m \
+  /Users/hannessatz/TailoredApps/Apps/TravisTryOut/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h

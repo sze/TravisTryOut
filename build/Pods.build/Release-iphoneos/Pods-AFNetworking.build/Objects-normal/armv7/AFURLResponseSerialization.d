@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/larissakalbhenn/TailoredApps/TravisTryOut/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.m \
-  /Users/larissakalbhenn/TailoredApps/TravisTryOut/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h
+  /Users/hannessatz/TailoredApps/Apps/TravisTryOut/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.m \
+  /Users/hannessatz/TailoredApps/Apps/TravisTryOut/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h

@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestApp/main.m \
-  /Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestApp/TAAppDelegate.h
+  /Users/hannessatz/TailoredApps/Apps/TravisTryOut/TravisTestApp/main.m \
+  /Users/hannessatz/TailoredApps/Apps/TravisTryOut/TravisTestApp/TAAppDelegate.h

@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/larissakalbhenn/TailoredApps/TravisTryOut/Pods/Pods-AFNetworking-dummy.m
+  /Users/hannessatz/TailoredApps/Apps/TravisTryOut/Pods/Pods-AFNetworking-dummy.m

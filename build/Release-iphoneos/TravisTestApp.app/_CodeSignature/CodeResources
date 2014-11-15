@@ -8,13 +8,36 @@
 		<data>
 		i113Kb8J7ZS9lP3hJEhrXwrQe3E=
 		</data>
+		<key>Base.lproj/Main.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Jmu6F/QDeWUyQljt5m/23hAkmcs=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>Base.lproj/Main.storyboardc/UIViewController-vXZ-lx-hvc.nib</key>
-		<data>
-		Fy94cRRQUT5oeV9y/b+sW7R+CvA=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			4QfifT7AaEae0fmHssU9HThk324=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>Base.lproj/Main.storyboardc/vXZ-lx-hvc-view-kh9-bI-dsS.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oOC+IeB7nCRPpeV9KBz5mvTTYiI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Info.plist</key>
 		<data>
-		OZBqd+6MlwUg55jheE7nujZQHi4=
+		8cnc643YdVudvCdZW/h3LnymTZI=
 		</data>
 		<key>LaunchImage-700-568h@2x.png</key>
 		<data>
@@ -24,13 +47,30 @@
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
+		<key>README.md</key>
+		<data>
+		KaCVm8ZREXa7XGgASRrwY0lx130=
+		</data>
+		<key>ResourceRules.plist</key>
+		<data>
+		d/bl2iIqxwOE4IBWAjyDLXJVwLo=
+		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		KVEdZWEn8qLlI/sNHpCKz8A2cmQ=
+		lNrFOkItuTqm3tVu45rL11nHukc=
 		</data>
 		<key>en.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zmV6UqBSo6r1NOz798vd5O4zTBA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>release_notes.md</key>
 		<data>
-		zmV6UqBSo6r1NOz798vd5O4zTBA=
+		/6kAHvvvRY61pNl7g5VBxGIN+U0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -39,81 +79,156 @@
 		<data>
 		i113Kb8J7ZS9lP3hJEhrXwrQe3E=
 		</data>
+		<key>Base.lproj/Main.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Jmu6F/QDeWUyQljt5m/23hAkmcs=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>Base.lproj/Main.storyboardc/UIViewController-vXZ-lx-hvc.nib</key>
-		<data>
-		Fy94cRRQUT5oeV9y/b+sW7R+CvA=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			4QfifT7AaEae0fmHssU9HThk324=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>Base.lproj/Main.storyboardc/vXZ-lx-hvc-view-kh9-bI-dsS.nib</key>
-		<data>
-		OZBqd+6MlwUg55jheE7nujZQHi4=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			oOC+IeB7nCRPpeV9KBz5mvTTYiI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>LaunchImage-700-568h@2x.png</key>
 		<data>
 		V1VdV48TyrImURVWCaose9yz87E=
 		</data>
-		<key>PkgInfo</key>
+		<key>README.md</key>
 		<data>
-		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		KaCVm8ZREXa7XGgASRrwY0lx130=
+		</data>
+		<key>ResourceRules.plist</key>
+		<data>
+		d/bl2iIqxwOE4IBWAjyDLXJVwLo=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		KVEdZWEn8qLlI/sNHpCKz8A2cmQ=
+		lNrFOkItuTqm3tVu45rL11nHukc=
 		</data>
 		<key>en.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zmV6UqBSo6r1NOz798vd5O4zTBA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>release_notes.md</key>
 		<data>
-		zmV6UqBSo6r1NOz798vd5O4zTBA=
+		/6kAHvvvRY61pNl7g5VBxGIN+U0=
 		</data>
 	</dict>
 	<key>rules</key>
 	<dict>
-		<key>.*</key>
+		<key>^</key>
 		<true/>
-		<key>Info.plist</key>
+		<key>^.*\.lproj/</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>1000</real>
+		</dict>
+		<key>^.*\.lproj/locversion.plist$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
-			<real>10</real>
+			<real>1100</real>
 		</dict>
-		<key>ResourceRules.plist</key>
-		<dict>
-			<key>omit</key>
-			<true/>
-			<key>weight</key>
-			<real>100</real>
-		</dict>
+		<key>^version.plist$</key>
+		<true/>
 	</dict>
 	<key>rules2</key>
 	<dict>
-		<key>.*</key>
-		<true/>
-		<key>Info.plist</key>
+		<key>.*\.dSYM($|/)</key>
+		<dict>
+			<key>weight</key>
+			<real>11</real>
+		</dict>
+		<key>^</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^(.*/)?\.DS_Store$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
-			<real>10</real>
+			<real>2000</real>
 		</dict>
-		<key>ResourceRules.plist</key>
-		<dict>
-			<key>omit</key>
-			<true/>
-			<key>weight</key>
-			<real>100</real>
-		</dict>
-		<key>^(Frameworks|SharedFrameworks|Plugins|Plug-ins|XPCServices|Helpers|MacOS)/</key>
+		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
 		<dict>
 			<key>nested</key>
 			<true/>
 			<key>weight</key>
-			<real>0.0</real>
+			<real>10</real>
+		</dict>
+		<key>^.*</key>
+		<true/>
+		<key>^.*\.lproj/</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>1000</real>
+		</dict>
+		<key>^.*\.lproj/locversion.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>1100</real>
+		</dict>
+		<key>^Info\.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^PkgInfo$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>20</real>
 		</dict>
 		<key>^[^/]+$</key>
 		<dict>
-			<key>top</key>
+			<key>nested</key>
 			<true/>
 			<key>weight</key>
-			<real>0.0</real>
+			<real>10</real>
+		</dict>
+		<key>^embedded\.provisionprofile$</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^version\.plist$</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
 		</dict>
 	</dict>
 </dict>

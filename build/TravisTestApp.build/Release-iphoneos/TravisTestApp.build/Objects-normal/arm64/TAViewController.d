@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestApp/TAViewController.m \
-  /Users/larissakalbhenn/TailoredApps/TravisTryOut/TravisTestApp/TAViewController.h
+  /Users/hannessatz/TailoredApps/Apps/TravisTryOut/TravisTestApp/TAViewController.m \
+  /Users/hannessatz/TailoredApps/Apps/TravisTryOut/TravisTestApp/TAViewController.h

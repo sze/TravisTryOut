@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/larissakalbhenn/TailoredApps/TravisTryOut/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m \
-  /Users/larissakalbhenn/TailoredApps/TravisTryOut/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h
+  /Users/hannessatz/TailoredApps/Apps/TravisTryOut/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m \
+  /Users/hannessatz/TailoredApps/Apps/TravisTryOut/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h
